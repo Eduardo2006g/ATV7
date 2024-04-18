@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 7</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Menu -->
+    <nav>
+        <ul>
+            <li>
+                <a id="bot" href="#">Menu</a>
+                <ul class="dropdown">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Login -->
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="username">Nome</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="password">Senha</label>
+                <input id="password" name="password" type="password">
+                <div class="error"></div>
+            </div>
+
+            <button type="submit">Autenticar</button>
+        </form>
+    </div>
+    
+</body>
+</html>
